@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="yF+zOJsJ.u[5bE|0ud)k">Player</variable><variable type="KIND_SpriteKind" id="Sc%]A6c,)}{@hj?8Aq7D">Projectile</variable><variable type="KIND_SpriteKind" id="stS4fEPLA8N-_:I^p;@_">Food</variable><variable type="KIND_SpriteKind" id="IYR]]M$W.8;!ReIj6UTZ">Enemy</variable><variable id="G9%m@hfgef~mQc:F@`C9">mySprite</variable><variable id="G0gMp#d;9+@rAh~?Hj3P">Player2</variable></variables><block type="pxt-on-start" id="_WJ6Wzh]mQb,h,V~-rG]" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="XrP@=j!~7U^!c^3=:BZ,"><field name="VAR" id="G0gMp#d;9+@rAh~?Hj3P">Player2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="|W-N9oox~Z|ey}brPfV8"><value name="img"><shadow type="screen_image_picker" id="|L2rC.ryyD%,t|7A8VUz"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 5 5 5 5 5 . . . . . . 
+. . . . 5 5 5 5 5 5 5 . . . . . 
+. . . 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . 5 5 f 5 5 5 f 5 5 5 . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. . 5 f f 5 5 5 5 5 f f 5 . . . 
+. . 5 5 f f 5 5 5 f f 5 5 . . . 
+. . . 5 5 f f f f f 5 5 5 . . . 
+. . . . 5 5 5 5 5 5 5 5 . . . . 
+. . . . . 5 5 5 5 5 5 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"|L2rC.ryyD%,t|7A8VUz"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="%lhWZEH^K%,j8vs#Ezj8"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="2_/=_WdX7DO2+9T!Fr;L"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="}O+`A`)W)JYihe)j@?#j"><field name="VAR" id="G0gMp#d;9+@rAh~?Hj3P">Player2</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="`::~mf~/suL`O]X@Ji)w"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="T,|Zt2A45fE`|MiT~vDP"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
